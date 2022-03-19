@@ -6,11 +6,11 @@ export const library = [
     contract: "0xafB8FFa69A4C4235b4cC64D2ae026f26D38de2F0",
     },
     {
-      // this one is from the mainnet of polygon, that is why it crashes
+      // this one is from the mainnet of eth mainnet, that is why it crashes
       title: "Non Fungi Music (mainnet crash)",
       image:
       "https://ipfs.moralis.io:2053/ipfs/QmNsnqDMmRMKgWm2dQrZ4uFGQNUiZ7vmbfgptYyAgfKNVx/media/2",
-      contract: "0x495f947276749Ce646f68AC8c248420045cb7b5e",
+      contract: "0xe17fA72Cf70898d4Bed5Dbca2F389881F15D0490",
       },
   {
     title: "Hyperspace",
