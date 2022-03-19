@@ -11,7 +11,7 @@ export const useAlbum = (contract) => {
         return await token
             .getAllTokenIds({
                 address: contract,
-                chain: "mumbai"
+                chain: "eth"
             })
             .then((result) => result);
     };

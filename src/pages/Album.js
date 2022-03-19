@@ -63,17 +63,18 @@ const Album = ({setNftAlbum}) => {
       <div className='albumContent'>
         <div className='topBan'>
           <img
-            src={album.image}
+            // src={album.image}
+            src={albumDetails && JSON.parse(albumDetails[0].metadata).image}
             alt="albumcover"
             className="albumCover" />
           <div className='albumDeets'>
             <div>ALBUM</div>
-            <div className='title'>{album.title}</div>
+            <div className='title'>{albumDetails && albumDetails[0].name}</div>
             <div className='artist'>
-              {albumDetails && JSON.parse(albumDetails[0].metadata).artist}
+              {albumDetails && albumDetails[0].symbol}
             </div>
             <div>
-              {albumDetails && JSON.parse(albumDetails[0].metadata).year} •{" "}
+              {albumDetails && albumDetails[0].synced_at.slice(0,4)} •{" "}
               {albumDetails && albumDetails.length} Songs
             </div>
           </div>
@@ -111,9 +112,9 @@ const Album = ({setNftAlbum}) => {
                     className='titleHeader'
                     style={{ color: "rgb(205,203,203)" }}
                   >
-                    {nft.name}
+                    <p>Here goes name song</p>
                   </div>
-                  <div className='numberHeader'>{nft.duration}</div>
+                  <div className='numberHeader'>here goes duration song</div>
                 </div>
               </>
             )

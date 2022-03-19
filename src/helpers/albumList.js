@@ -10,18 +10,21 @@ export const library = [
       title: "Non Fungi Music (mainnet crash)",
       image:
       "https://ipfs.moralis.io:2053/ipfs/QmNsnqDMmRMKgWm2dQrZ4uFGQNUiZ7vmbfgptYyAgfKNVx/media/2",
-      contract: "0xe17fA72Cf70898d4Bed5Dbca2F389881F15D0490",
+      contract: "0x10064373e248Bc7253653cA05Df73CF226202956",
       },
   {
+    //This is another from eth mainnet to test
     title: "Hyperspace",
     image:
-      "https://www.digitalartsonline.co.uk/cmsdata/slideshow/3776245/beck_-_hyperspace.jpg"
+      "https://www.digitalartsonline.co.uk/cmsdata/slideshow/3776245/beck_-_hyperspace.jpg",
+      contract: "0x0C7D5d65024BF684BcD313e885a00b2057Ba7918"
   },
   {
+    //another from mainnet to test
     title: "Non Fungible",
     image:
       "https://ipfs.moralis.io:2053/ipfs/QmTbF7gLPmtrZuNr7kZJ8iufxBVEPqrAdJsxujSmu9qbuh/art/NonFungible.png",
-    contract: "0x1C45d483515A92fCDD0aa5eaF03dbdf1B7d6898a",
+    contract: "0x19b703f65aA7E1E775BD06c2aa0D0d08c80f1C45",
   },
   {
     title: "The Unknown",

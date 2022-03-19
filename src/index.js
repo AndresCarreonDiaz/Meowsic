@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { MoralisProvider } from "react-moralis";
-const APP_ID = process.env.REACT_APP_MORALIS_APPLICATION_ID;
-const SERVER_URL = process.env.REACT_APP_MORALIS_SERVER_URL;
+import { useAlbum } from './hooks/useAlbum';
+const APP_ID = process.env.REACT_APP_MORALIS_APPLICATION_ID_MAINNET;
+const SERVER_URL = process.env.REACT_APP_MORALIS_SERVER_URL_MAINNET;
 
+// COMMENT: TO CHANGE CHAIN CHANGE THE APPID/SERVERURL IN index.JS AND THE CHAIN IN useAlbum.JS
 ReactDOM.render(
   <React.StrictMode>
     <MoralisProvider appId={APP_ID} serverUrl={SERVER_URL}>
